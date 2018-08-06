@@ -1,0 +1,16 @@
+name: google_sign_in_button_sample
+description: Sample application for Google Sign-In Button.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  google_sign_in_button:
+    path: ../google_sign_in_button
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
