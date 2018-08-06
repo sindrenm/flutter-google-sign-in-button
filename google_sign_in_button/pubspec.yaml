@@ -1,0 +1,30 @@
+name: google_sign_in_button
+description: Google Sign-In Button
+version: 1.0.0
+author: Sindre Moen <sindrenm@gmail.com>
+homepage: https://github.com/sindrenm
+
+environment:
+  sdk: ">=1.19.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/images/google_logo.png
+    - assets/images/2x/google_logo.png
+    - assets/images/3x/google_logo.png
+    - assets/images/4x/google_logo.png
+    - assets/images/5x/google_logo.png
+
+  fonts:
+    - family: Roboto
+      fonts:
+      - asset: assets/fonts/roboto_medium.ttf
+        weight: 500
