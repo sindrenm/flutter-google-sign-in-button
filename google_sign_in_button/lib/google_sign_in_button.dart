@@ -19,6 +19,7 @@ class GoogleSignInButton extends StatelessWidget {
     return SizedBox(
       height: 40.0,
       child: Material(
+        elevation: 1.0,
         color: Colors.white,
         child: InkWell(
           onTap: onPressed,
