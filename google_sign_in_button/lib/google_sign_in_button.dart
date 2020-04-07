@@ -44,7 +44,7 @@ class GoogleSignInButton extends StatelessWidget {
               ),
               const SizedBox(width: 14.0),
               Text(
-                'Sign in with Google'.toUpperCase(),
+                'Sign in with Google',
                 style: TextStyle(
                   package: _packageName,
                   color: _textColor,
